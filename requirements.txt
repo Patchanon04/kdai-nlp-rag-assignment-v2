@@ -1,0 +1,11 @@
+# ติดตั้งด้วย: pip install -r requirements.txt  (Python 3.10+)
+opensearch-py
+sentence-transformers
+llama-index-core
+langchain==0.0.354
+langchain-community
+openai
+tqdm
+# เพิ่มสำหรับระบบปรับปรุง (ตัดคำภาษาไทย)
+pythainlp
+python-crfsuite

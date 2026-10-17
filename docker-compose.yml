@@ -1,0 +1,13 @@
+# OpenSearch 2.19.1 แบบ single-node ไม่เปิด security plugin (ตาม readme ของวิชา)
+services:
+  opensearch:
+    image: opensearchproject/opensearch:2.19.1
+    container_name: opensearch
+    environment:
+      - discovery.type=single-node
+      - DISABLE_SECURITY_PLUGIN=true
+      - network.host=0.0.0.0
+      - OPENSEARCH_JAVA_OPTS=-Xms1g -Xmx1g
+    ports:
+      - "9200:9200"
+      - "9600:9600"
