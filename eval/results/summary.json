@@ -1,0 +1,50 @@
+{
+  "baseline": {
+    "n": 20,
+    "hit@1": 0.65,
+    "hit@3": 0.85,
+    "hit@5": 0.9,
+    "mrr": 0.743,
+    "keyword_recall@5": 0.9,
+    "doc_acc@1": 1.0,
+    "context_chars": 10721.6,
+    "retrieval_sec": 0.932,
+    "answer_keyword_hit": 0.95,
+    "hit@5_high_overlap": 1.0,
+    "mrr_high_overlap": 1.0,
+    "hit@5_low_overlap": 0.778,
+    "mrr_low_overlap": 0.43
+  },
+  "improved-norerank": {
+    "n": 20,
+    "hit@1": 0.8,
+    "hit@3": 0.9,
+    "hit@5": 0.95,
+    "mrr": 0.863,
+    "keyword_recall@5": 0.975,
+    "doc_acc@1": 1.0,
+    "context_chars": 4687.05,
+    "retrieval_sec": 0.998,
+    "answer_keyword_hit": 1.0,
+    "hit@5_high_overlap": 1.0,
+    "mrr_high_overlap": 1.0,
+    "hit@5_low_overlap": 0.889,
+    "mrr_low_overlap": 0.694
+  },
+  "improved": {
+    "n": 20,
+    "hit@1": 0.95,
+    "hit@3": 1.0,
+    "hit@5": 1.0,
+    "mrr": 0.967,
+    "keyword_recall@5": 1.0,
+    "doc_acc@1": 1.0,
+    "context_chars": 4860.95,
+    "retrieval_sec": 15.717,
+    "answer_keyword_hit": 1.0,
+    "hit@5_high_overlap": 1.0,
+    "mrr_high_overlap": 1.0,
+    "hit@5_low_overlap": 1.0,
+    "mrr_low_overlap": 0.926
+  }
+}
